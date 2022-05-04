@@ -1,0 +1,14 @@
+name: lmb
+channels:
+- conda-forge
+dependencies:
+- python=3.8.6
+- numpy
+- scipy
+- pandas
+- matplotlib
+- lap
+- pip
+- pip:
+    - motmetrics
+    - pytest
